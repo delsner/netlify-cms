@@ -5,7 +5,7 @@ on: [push]
 jobs:
   tests:
     env:
-      SCOPE_DSN: ${{ secrets.SCOPE_DSN }}
+      SCOPE_DSN: https://365d5b712fe047848d1a4e861dd38b41@app.scope.dev/
       SCOPE_CODE_PATH_ENABLED: true
       SCOPE_INSTRUMENTATION_HTTP_PAYLOADS: true
       SCOPE_INSTRUMENTATION_DB_STATEMENT_VALUES: true
